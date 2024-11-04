@@ -19,7 +19,7 @@ def user_guess():
         
     st.write("Make your guess between 0 and 20")
     if st.session_state.tries<attempts and check==0:
-        st.write(st.session_state.tries,attempts,st.session_state.num)
+        st.write(st.session_state.tries,attempts)
         st.session_state.guess=st.number_input("Enter your guess",step=1)
         if st.button("Submit"):
             if st.session_state.guess==st.session_state.num:

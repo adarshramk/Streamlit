@@ -17,6 +17,8 @@ for i in range(3):
     c2.write(l2[i])
 
 
-      
+st.write("\n")
+st.write("Choose a game to play:")
+st.write("\n")
 c1.link_button("Machine Number Guesser","/machine_number_guesser")
 c2.link_button("User Number Guesser","/user_number_guesser")
